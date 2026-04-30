@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
   <html lang="en">
-
 <head>
- 
   <style>
-    body {color: #2E6F40}
-    h2 {color: #06402B}
-    .tag {display: inline-block}
-    .features {display: flex}
-    .feature{flex: 1}
-    .authors{display: flex}
-    .author{flex 1}
-  
+    body { font-family: system-ui, sans-serif; max-width: 680px; margin: 0 auto; padding: 2rem; }
+    h1 { color: #06402B; font-size: 2rem; margin-bottom: 0.25rem; }
+    h2 { color: #06402B; margin-top: 2rem; margin-bottom: 0.75rem; }
+    p  { color: #444; line-height: 1.7; }
+    a  { color: #1D9E75; }
+    hr { border: none; border-top: 1px solid #eee; margin: 1rem 0; }
+
+    .tag { display: inline-block; background: #d1fae5; color: #065f46; font-size: 12px; padding: 3px 12px; border-radius: 999px; margin-bottom: 0.5rem; }
+
+    .features { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 1rem; }
+    .feature { flex: 1; min-width: 140px; background: #f5f5f3; border-radius: 10px; padding: 0.9rem 1rem; font-size: 13px; color: #2E6F40; }
+
+    .authors { display: flex; gap: 12px; flex-wrap: wrap; }
+    .author { flex: 1; min-width: 140px; background: #f5f5f3; border-radius: 10px; padding: 0.9rem 1rem; }
+    .author-name { font-weight: 600; color: #06402B; margin-bottom: 4px; }
+    .author p { font-size: 13px; margin: 0; }
+    
   </style>
 </head>
 <body>
@@ -38,20 +45,27 @@
     Interactive Bubble Game README</a> to install.</p>
 
 <h2>About the Authors</h2>
-  <div class="author">
-    <div class="author">Jenny
-      <p>dot dot dot</p></div>
-    <div class="author">Avani
-      <p>dot dot dot</p></div>
-    <div class="author">Rachael
-      <p>worked on making and implementing the visuals correctly</p></div>
-    
+  <div class="authors">
+    <div class="author">
+      <div class="author-name">Jenny</div>
+      <p>dot dot dot</p>
+    </div>
+    <div class="author">
+      <div class="author-name">Avani</div>
+      <p>dot dot dot</p>
+    </div>
+    <div class="author">
+      <div class="author-name">Rachael</div>
+      <p>worked on making and implementing the visuals correctly</p>
+    </div>
   </div>
 
-</body>
-  </html>
 
 <h2>External Resources</h2>
+
+
+</body>
+</html>
 
   
 </body>
